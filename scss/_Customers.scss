@@ -1,0 +1,100 @@
+.Customers{
+margin-bottom: 120px;
+font-family: sans-serif;
+}
+
+.Customers-container{
+    background-color: #0B7572;
+    display: flex;
+    justify-content: space-between;
+    padding: 85px 66px;
+
+    .Customers-title{
+        h2{
+            // font-family: 'Exo 2';
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 60px;
+            text-align: left;
+            color: white;
+        }
+    }
+}
+
+.pdb{
+    .images2{
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 1240px){
+    // .container{
+    //     max-width: 1140px;
+    // }
+
+    .Customers-container{
+        background-color: #0B7572;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        .Customers-title{
+            h2{
+                // font-family: 'Exo 2';
+                font-size: 48px;
+                font-weight: 600;
+                line-height: 60px;
+                text-align: left;
+                color: white;
+            }
+        }
+    }
+}
+// @media screen and (max-width: 1140px){
+//     .container{
+//         max-width: 960px;
+//     }
+// }
+// @media screen and (max-width: 960px){
+//     // .container{
+//     //     max-width: 720px;
+//     // }
+// }
+@media screen and (max-width: 720px){
+    // .container{
+    //     max-width: 670px;
+    // }
+    .Customers-container{
+        background-color: #0B7572;
+        display: flex;
+        justify-content: space-between;
+        padding: 85px 66px;
+    
+        .Customers-title{
+            h2{
+                // font-family: 'Exo 2';
+                font-size: 28px;
+                font-weight: 600;
+                line-height: 30px;
+                text-align: left;
+                color: white;
+            }
+        }
+
+        .pdb{
+            .images1{
+                display: none;
+            }
+            .images2{
+               display: block;
+            }
+        }
+    }
+}
+@media screen and (max-width: 670px){
+    .container{
+        max-width: 350px;
+    }
+}

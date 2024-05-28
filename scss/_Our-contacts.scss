@@ -1,0 +1,125 @@
+.Our-contacts{
+    font-family: sans-serif;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+.Our-contacts__container{
+    h2{
+        // font-family: Exo 2;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 60px;
+        text-align: left;
+        margin-bottom: 94px;
+    }
+}
+
+
+.connection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 44px   ;
+}
+
+.contact-x{
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    div{
+        span{
+            // font-family: PT Sans;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+            text-align: left;
+            color: #6B6B6C;
+            margin-bottom: 8px;
+        }
+
+        p{
+            // font-family: Exo 2;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 24px;
+            text-align: left;
+            transition: all 0.3s;
+            cursor: pointer;
+            &:hover{
+                color: #0B7572;
+                text-decoration: underline;
+            }
+            
+        }
+    }
+}
+
+
+
+// @media screen and (max-width: 1240px){
+//     .container{
+//         max-width: 1140px;
+//     }
+// }
+@media screen and (max-width: 1140px){
+    // .container{
+    //     max-width: 960px;
+    // }
+
+
+  
+    .Our-contacts__container{
+        h2{
+            // font-family: Exo 2;
+            font-size: 40px;
+        }
+    }
+    .full-desc{
+        img{
+            width: 694px;
+            height: 383px;
+        }
+    }
+}
+@media screen and (max-width: 960px){
+    // .container{
+    //     max-width: 720px;
+    // }
+ 
+    .Our-contacts__container{
+        h2{
+            // font-family: Exo 2;
+            font-size: 34px;
+        }
+    }
+    .full-desc{
+        img{
+            width: 490px;
+            height: 383px;
+        }
+    }
+}
+@media screen and (max-width: 720px){
+    // .container{
+    //     max-width: 670px;
+    // }
+
+    .connection{
+        display: flex;
+        align-items: flex-start;
+        margin-left: 30px;
+        gap: 30px;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 670px){
+    .container{
+        max-width: 350px;
+    }
+}

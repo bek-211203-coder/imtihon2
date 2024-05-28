@@ -1,0 +1,252 @@
+.main {
+    font-family: sans-serif;
+    margin-bottom: 67px;
+}
+
+.main-block {
+    box-shadow: 0px 4px 20px 0px #00000026;
+    padding: 50px 80px 46px 80px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    .block1 {
+        border-right: 2px solid #D7D7DD;
+    }
+
+    .main-card {
+        padding-left: 70px;
+        padding-right: 100px;
+
+        img {
+            width: 92px;
+            height: 92px;
+            margin-bottom: 24px;
+        }
+
+        h3 {
+            // font-family: 'Exo 2';
+            width: 248px;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 27px;
+            margin-bottom: 16px;
+            color: #363738;
+
+        }
+
+        p {
+            // font-family: "PT Sans";
+            width: 228px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color: #6B6B6C;
+        }
+
+
+    }
+
+    .box {
+        padding-left: 64px;
+        padding-right: 115px;
+    }
+}
+
+
+// @media screen and (max-width: 1240px){
+//     .container{
+//         max-width: 1140px;
+//     }
+// }
+@media screen and (max-width: 1140px) {
+    // .container{
+    //     max-width: 960px;
+    // }
+
+    .main-block {
+        .main-card {
+            padding-left: 60px;
+            padding-right: 90px;
+
+            img {
+                width: 82px;
+                height: 82px;
+                margin-bottom: 20px;
+            }
+
+            h3 {
+                width: 158px;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 24px;
+
+            }
+
+            p {
+                width: 118px;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 22px;
+            }
+
+
+        }
+
+        .box {
+            padding-left: 34px;
+            padding-right: 75px;
+        }
+    }
+}
+
+@media screen and (max-width: 960px) {
+    // .container{
+    //     max-width: 720px;
+    // }
+
+    .main-block {
+
+        // box-shadow: none;
+        .main-card {
+            padding-left: 60px;
+            padding-right: 90px;
+
+            img {
+                width: 82px;
+                height: 82px;
+                margin-bottom: 20px;
+            }
+
+            h3 {
+                width: 138px;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 24px;
+
+            }
+
+            p {
+                width: 108px;
+                font-size: 11px;
+                font-weight: 400;
+                line-height: 22px;
+            }
+
+
+        }
+
+        .box {
+            padding-left: 34px;
+            padding-right: 45px;
+        }
+    }
+}
+
+@media screen and (max-width: 720px) {
+    // .container{
+    //     max-width: 670px;
+    // }
+
+    .main-block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+        box-shadow: none;
+
+        .block1 {
+            border-right: none;
+        }
+
+        .main-card {
+            width: 665px;
+            box-shadow: 0px 4px 20px 0px #00000026;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding-top: 20px;
+            padding-left: 50px;
+
+
+            img {
+
+                width: 82px;
+                height: 82px;
+            }
+
+            h3 {
+                width: 100%;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 24px;
+
+            }
+
+            p {
+                width: 270px;
+                font-size: 11px;
+                font-weight: 400;
+                line-height: 22px;
+            }
+
+
+        }
+
+        
+    }
+}
+
+@media screen and (max-width: 670px) {
+    // .container {
+    //     max-width: 350px;
+    // }
+
+    .main-block {
+        box-shadow: 0px 4px 20px 0px #00000026;
+       
+
+        .block1 {
+            border-right: none;
+        }
+
+        .main-card {
+            width: 665px;
+            box-shadow: none;
+            flex-direction: column;
+            padding-top: 20px;
+            padding-left: 90px;
+            gap: 0px;
+
+
+            img {
+                margin-left: -200px;
+                width: 82px;
+                height: 82px;
+            }
+
+            h3 {
+                width: 185px;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 24px;
+
+            }
+
+            p {
+                width: 270px;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 22px;
+            }
+
+
+        }
+
+        
+    }
+}

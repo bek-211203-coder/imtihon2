@@ -1,0 +1,180 @@
+.information {
+    font-family: sans-serif;
+    margin-bottom: 120px;
+}
+
+.information-title {
+    background-image: url("../images/whyus.png");
+    height: 453px;
+    margin-bottom: 72px;
+
+    h2 {
+        // font-family: 'Exo 2';
+        width: 362px;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 60px;
+        padding-top: 178px;
+        margin-left: 90px;
+        color: white;
+    }
+}
+
+.information-desc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 140px;
+
+    .block-a {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+
+        .deck-box {
+            width: 447px;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+    }
+}
+
+.deck-box {
+    img {
+        width: 80px;
+        height: 80px;
+    }
+
+    div {
+        h3 {
+            // font-family: 'Exo 2';
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 27px;
+            text-align: left;
+            margin-bottom: 16px;
+        }
+
+        p {
+            // font-family: 'PT Sans';
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+        }
+    }
+}
+
+
+
+// @media screen and (max-width: 1240px){
+//     .container{
+//         max-width: 1140px;
+//     }
+// }
+@media screen and (max-width: 1140px){
+    // .container{
+    //     max-width: 960px;
+    // }
+    .information-desc {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 90px;
+    
+        .block-a {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+    
+            .deck-box {
+                width: 447px;
+                display: flex;
+                align-items: center;
+                gap: 20px;
+            }
+        }
+    }
+    
+
+}
+@media screen and (max-width: 960px){
+    // .container{
+    //     max-width: 720px;
+    // }
+
+    .information-title {
+        background-image: url("../images/whyus.png");
+        width: 729px;
+        height: 453px;
+        margin-bottom: 72px;
+    
+        h2 {
+            // font-family: 'Exo 2';
+            width: 262px;
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 60px;
+            padding-top: 138px;
+            margin-left: 90px;
+            color: white;
+        }
+    }
+
+    .information-desc {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 60px;
+    
+        .block-a {
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
+    
+            .deck-box {
+                width: 547px;
+                display: flex;
+                align-items: center;
+                gap: 40px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 720px){
+    // .container{
+    //     max-width: 670px;
+    // }
+
+    .information-title{
+        display: none;
+    }
+
+    .information-desc {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 60px;
+    
+        .block-a {
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
+    
+            .deck-box {
+                width: 347px;
+                display: flex;
+                align-items: center;
+                gap: 40px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 670px){
+    .container{
+        max-width: 350px;
+    }
+}

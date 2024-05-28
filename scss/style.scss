@@ -1,0 +1,52 @@
+@import'./fonts';
+@import "./normalize";
+@import "./header";
+@import "./main";
+@import "./information";
+@import "./Completed-works";
+
+@import "./Customers";
+@import "./etab";
+@import "./thoughts";
+@import "./Employees";
+@import "./Our-contacts";
+@import "./video";
+@import "./footer";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1240px){
+    .container{
+        max-width: 1140px;
+    }
+}
+@media screen and (max-width: 1140px){
+    .container{
+        max-width: 960px;
+    }
+}
+@media screen and (max-width: 960px){
+    .container{
+        max-width: 720px;
+    }
+}
+@media screen and (max-width: 720px){
+    .container{
+        max-width: 670px;
+    }
+}
+@media screen and (max-width: 670px){
+    .container{
+        max-width: 350px;
+    }
+}

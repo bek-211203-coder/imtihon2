@@ -1,0 +1,134 @@
+.etab{
+    font-family: sans-serif ;
+    margin-bottom: 120px;
+}
+
+.etab__container{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    h2{
+    // font-family: 'Exo 2';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+    margin-bottom: 48px;
+    }
+    
+}
+.etab-cards{
+    box-shadow: 0px 4px 15px 0px #0000001F;
+    border-radius: 4px;
+    padding: 32px 96px; 
+    margin-left: 50px;
+    transition: all 0.8s;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+.card-b{
+    display: flex;
+    align-items: center;
+    gap: 56px;
+    img{
+        width: 331px;
+    }
+    .etab-info{
+        h3{
+            // font-family: Exo 2;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 25px;
+            text-align: left;
+            margin-bottom: 24px;
+            
+        }
+        .name{
+            border-bottom: 3px solid orange;
+           width: 100px;
+           margin-bottom: 24px;
+        }
+        p{
+            // font-family: PT Sans;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            color:#6B6B6C;             
+        }
+    }
+}
+
+
+// @media screen and (max-width: 1240px){
+//     // .container{
+//     //     max-width: 1140px;
+//     // }
+// }
+// @media screen and (max-width: 1140px){
+//     .container{
+//         max-width: 960px;
+//     }
+// }
+@media screen and (max-width: 960px){
+    // .container{
+    //     max-width: 720px;
+    // }
+
+    .etab__container{
+        h2{
+        font-size: 38px;
+        } 
+    }
+
+    .card-b{
+        img{
+           display: none;
+        }
+    }
+}
+@media screen and (max-width: 720px){
+    // .container{
+    //     max-width: 670px;
+    // }
+
+    .etab-cards{
+        width: 538px;
+    }
+    .card-b{
+ 
+        img{
+            width: 331px;
+        }
+        .etab-info{
+            h3{
+                // font-family: Exo 2;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 25px;
+                text-align: left;
+                margin-bottom: 24px;
+                
+            }
+            .name{
+                display: none;
+            }
+            p{
+                // font-family: PT Sans;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                text-align: left;
+                color:#6B6B6C;             
+            }
+        }
+    }
+    
+
+}
+@media screen and (max-width: 670px){
+    .container{
+        max-width: 350px;
+    }
+}
